@@ -4,6 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #333;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Establecer una fuente y tamaño de fuente base */
