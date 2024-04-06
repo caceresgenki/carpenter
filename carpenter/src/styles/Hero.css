@@ -34,7 +34,7 @@ h1 {
   max-width: 370px;
   height: 256px;
   top: 20px; 
-  left: 128px;
+  left: 40px;
   z-index: -3;
   object-fit: cover;
 }
@@ -44,10 +44,10 @@ h1 {
   background-color: #999;
   opacity: 0.2;
   border-radius: 15px;
-  width: 500px;
+  width: 320px;
   height: 100px;
-  top: 10px; 
-  left: 400px;
+  top: 5px; 
+  left: 280px;
   z-index: -2;
   object-fit: cover;
 }
@@ -55,9 +55,10 @@ h1 {
 .wood {
   position: absolute;
   top: 32px; 
-  left: 150px;
+  left: 64px;
   z-index: -1;
   object-fit: cover;
   border-radius: 15px;
+  width: 540px;
   height: 360px;
 }
