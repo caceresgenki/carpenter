@@ -1,0 +1,17 @@
+button {
+  color: white;
+}
+
+.buttonWS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px auto;
+  padding: 6px 0;
+  background-color: #c07c3c;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}

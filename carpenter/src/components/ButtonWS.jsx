@@ -1,18 +1,20 @@
-
+import '../styles/ButtonWS.css';
 
 
 
 function ButtonWS() {
 
   const handleButtonClick = () => {
-    // Lógica para redirigir al enlace de WhatsApp
-    window.location.href = 'https://api.whatsapp.com/send?phone=1234567890';
+    window.open ('https://api.whatsapp.com/send?phone=584140938888', '_blank');
   };
 
   return (
-    <button onClick={handleButtonClick}>
-      Mensaje en WhatsApp
-    </button>
+    <h4 >
+      <button className='buttonWS'
+         onClick={handleButtonClick}>
+        Mensaje en WhatsApp
+      </button>
+    </h4>
   );
   }
   

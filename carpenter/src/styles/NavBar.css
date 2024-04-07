@@ -1,15 +1,19 @@
-
-
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 50px;
     width: 100%;
-    background-color: #f2f2f2;
+    background-color: #e2e2e2;
     position: fixed;
     font-weight: bold;
     padding: 0 20px 0 20px;
+  }
+
+  @media (min-width: 1201px) {
+    .navbar {
+      padding-right: 100px;
+    }
   }
   
   .logo {

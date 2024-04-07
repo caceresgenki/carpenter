@@ -5,7 +5,6 @@ function NavBar() {
   
     return (
       <>
-      <nav>
         <div className="navbar">
             <div className='containerLogo'>
                 <a className="logo" >
@@ -17,7 +16,6 @@ function NavBar() {
                 <a href="#">Sobre Mi</a>
             </div>
         </div>
-      </nav>
       </>
     )
   }
