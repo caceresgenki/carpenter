@@ -10,7 +10,7 @@ function Hero() {
   
     return (
       <>
-        <div className='hero'>
+        <section className='hero'>
             <div className='elementsHero'>
               <div className='company'>
                 <h1 className='description' >Carpintería - Muebles únicos y a medida</h1>
@@ -30,7 +30,7 @@ function Hero() {
                 <img src={wood} className='image wood'/>
               </div>
             </div>
-        </div>
+        </section>
       </>
     )
   }
