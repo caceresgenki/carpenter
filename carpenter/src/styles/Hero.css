@@ -93,6 +93,10 @@ article {
   align-items: center;
 }
 
+.nameUser {
+  margin-left: 4px;
+}
+
 @media (max-width: 670px) {
   .elementsHero{
     flex-direction: column;

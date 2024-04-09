@@ -1,0 +1,39 @@
+
+
+ .articleTestimonials {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-height: 400px;
+    background-color: #c07c3c;
+    padding: 6vw;
+    border-radius: 15px;
+    margin-top: 128px;
+}
+
+.styleText {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nameUser {
+    font-size: 20px;
+}
+
+.decoUser svg {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .styleText {
+        font-size: 3.3vw;
+    }
+    .nameUser {
+        font-size: 2.2vw;
+    }
+  }

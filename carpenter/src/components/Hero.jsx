@@ -21,7 +21,7 @@ function Hero() {
                     <Star/><Star/><Star/><Star/><Star/><span>| Muebles a pedido</span><span>| Calidad y atención personalizada</span>
                   </div>
                   <p className='mesageUser'>“Los muebles que hicieron para mi casa son simplemente increíbles. La calidad y el diseño son inigualables. - Cliente satisfecho”</p>
-                  <p className='user'><User/> Randy Flores</p>
+                  <p className='user'><User /><span className='nameUser'> Randy Flores </span></p>
                 </article>
               </div>
               <div className='images'>

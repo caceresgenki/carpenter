@@ -1,7 +1,8 @@
 
 
-function User() {
+function User({colorUser}) {
   
+  const colorTema = colorUser === undefined ? "currentColor" : colorUser
     return (
       <>
         <svg 
@@ -10,7 +11,8 @@ function User() {
             width="24" height="24" 
             viewBox="0 0 24 24" 
             strokeWidth="1.5" 
-            stroke="currentColor">
+            stroke={colorTema}
+            className="decoUser">
             <path 
             strokeLinecap="round" 
             strokeLinejoin="round" 
