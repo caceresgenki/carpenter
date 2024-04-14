@@ -11,14 +11,16 @@
     max-height: 400px;
     background-color: #c07c3c;
     padding: 6vw;
-    border-radius: 15px;
     margin-top: 128px;
+    overflow: hidden;
+    z-index: -1;
 }
 
 .styleText {
     color: white;
     font-size: 28px;
     font-weight: bold;
+    max-width: 1200px;
 }
 
 .nameUser {
@@ -27,6 +29,17 @@
 
 .decoUser svg {
     width: 100%;
+}
+
+.pointsTestimonials {
+    position: absolute;
+    opacity: 0.2;
+    max-width: 400px;
+    height: 375px;
+    top: 200px; 
+    left: -45px;
+    object-fit: cover;
+    transform: rotate(10deg);
 }
 
 @media (max-width: 800px) {

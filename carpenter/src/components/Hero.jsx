@@ -2,8 +2,9 @@ import '../styles/Hero.css';
 import Star from '../icons/Star'
 import User from '../icons/User'
 import ButtonWS from './ButtonWS'
-import imagen from '../image/points.jpg';
+import imagen from '../image/points.png';
 import wood from '../image/wood.jpg';
+import World from '../icons/World'
 
 
 function Hero() {
@@ -13,7 +14,7 @@ function Hero() {
         <section className='hero'>
             <div className='elementsHero'>
               <div className='company'>
-                <h1 className='description' >Carpintería - Muebles únicos y a medida</h1>
+                <h1 className='description' >Carpintería - Muebles únicos y más...</h1>
                 <p className='called' >Calidad y atención personalizada para transformar tus espacios</p>
                 <ButtonWS/>
                 <article>
@@ -22,6 +23,7 @@ function Hero() {
                   </div>
                   <p className='mesageUser'>“Los muebles que hicieron para mi casa son simplemente increíbles. La calidad y el diseño son inigualables. - Cliente satisfecho”</p>
                   <p className='user'><User /><span className='nameUser'> Randy Flores </span></p>
+                  <p className='ubicationMap'><World/><span className='city'>Puerto La Cruz, Edo. Anzoátegui.</span></p>
                 </article>
               </div>
               <div className='images'>

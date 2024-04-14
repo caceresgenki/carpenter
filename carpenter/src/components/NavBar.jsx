@@ -11,10 +11,10 @@ function NavBar() {
                       <Logo/> 
                   </a>
               </div>
-              <div className="sections">
+              {/* <div className="sections">
                   <a href="#">Servicios</a>
                   <a href="#">Sobre Mi</a>
-              </div>
+              </div> */}
         </nav>
       </>
     )

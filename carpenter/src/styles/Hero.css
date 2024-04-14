@@ -91,10 +91,21 @@ article {
   font-weight: 500;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 
 .nameUser {
   margin-left: 4px;
+}
+
+.ubicationMap {
+  display: flex;
+  align-items: center;
+  
+}
+
+.city {
+  padding-left: 4px;
 }
 
 @media (max-width: 670px) {

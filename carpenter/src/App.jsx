@@ -16,7 +16,9 @@ function App() {
       <main>
         <Hero/>
         <Body/>
-        <Testimonials/>
+      </main>
+      <Testimonials/>
+      <main>
         <Contact/>
       </main>
       <footer>

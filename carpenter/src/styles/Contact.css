@@ -1,0 +1,46 @@
+
+.sectionContact {
+    position: relative;
+    display: flex;
+    width: 100%;
+    /* max-height: 400px; */
+    padding: 8vw;
+    margin-top: 164px;
+    overflow: hidden;
+    border: 1px solid #616161;
+    border-radius: 20px;
+}
+
+.textContact {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.textContact span {
+    color: #c07c3c;
+}
+
+.infoContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.waves {
+    position: absolute;
+    width: 100%;
+    min-height: 410px;
+    top: auto; 
+    left: 0px;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.wave1 {
+    z-index: -1;
+}
+

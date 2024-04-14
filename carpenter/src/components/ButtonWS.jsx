@@ -5,7 +5,7 @@ import '../styles/ButtonWS.css';
 function ButtonWS() {
 
   const handleButtonClick = () => {
-    window.open ('https://api.whatsapp.com/send?phone=584140938888', '_blank');
+    window.open ('https://api.whatsapp.com/send?phone=584248474578', '_blank');
   };
 
   return (
