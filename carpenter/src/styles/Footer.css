@@ -21,8 +21,9 @@
 
 .footerContact {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  flex-direction: row;
+  gap: 6px;
+  margin-bottom: 8px;
 }
 
 .create {
@@ -31,4 +32,19 @@
   justify-content: center;
   margin: 0 auto;
   font-size: 12px;
+}
+
+.icon {
+  border: 1px solid #333;
+  border-radius: 5px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContactFooter p {
+  font-size: 10px;
+  margin: 0;
 }

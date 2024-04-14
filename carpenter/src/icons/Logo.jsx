@@ -7,7 +7,7 @@ function Logo() {
     <>
       <svg 
         xmlns="http://www.w3.org/2000/svg" 
-        className="icon icon-tabler icon-tabler-zodiac-aquarius" 
+        className="" 
         width="48" 
         height="48" 
         viewBox="0 0 24 24" 

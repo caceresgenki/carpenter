@@ -22,7 +22,7 @@ function Hero() {
                     <Star/><Star/><Star/><Star/><Star/><span>| Muebles a pedido</span><span>| Calidad y atención personalizada</span>
                   </div>
                   <p className='mesageUser'>“Los muebles que hicieron para mi casa son simplemente increíbles. La calidad y el diseño son inigualables. - Cliente satisfecho”</p>
-                  <p className='user'><User /><span className='nameUser'> Randy Flores </span></p>
+                  <p className='user'><User /><span className='nameUser'> Michel Zeghen</span></p>
                   <p className='ubicationMap'><World/><span className='city'>Puerto La Cruz, Edo. Anzoátegui.</span></p>
                 </article>
               </div>
