@@ -1,7 +1,6 @@
-
-import User from '../icons/User'
-import '../styles/Testimonials.css'
-import Image from '../image/points.png'
+import User from '../../icons/User'
+import '../../styles/home/Testimonials.css'
+import Image from '../../image/points.png'
 
 function Testimonials() {
 

@@ -1,5 +1,5 @@
 import Logo from '../icons/Logo'
-
+import '../styles/NavBar.css'
 
 function NavBar() {
   
@@ -11,10 +11,10 @@ function NavBar() {
                       <Logo/> 
                   </a>
               </div>
-              {/* <div className="sections">
+              <div className="sections">
+                  <a href="#">Nosotros</a>
                   <a href="#">Servicios</a>
-                  <a href="#">Sobre Mi</a>
-              </div> */}
+              </div>
         </nav>
       </>
     )

@@ -1,0 +1,41 @@
+
+
+.heroAbout {
+  padding-top: 100px;
+  width: 100%;
+  height: 38vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.textHeroAbout {
+  font-size: 58px;
+  font-weight: bold;
+}
+
+.descriptionHeroAbout {
+  max-width: 80vw;
+}
+
+.decoAbout1, .decoAbout2 {
+  opacity: 0.2;
+  position: absolute;
+  max-width: 768px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.decoAbout1 {
+  top: 100px;
+  left: -650px;
+}
+
+.decoAbout2 {
+  top: -100px;
+  right: -540px;
+}

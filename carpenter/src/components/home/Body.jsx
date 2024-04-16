@@ -1,8 +1,8 @@
 import SectionBody from './SectionBody'
-import image2 from '../image/wood2.jpg'
-import image3 from '../image/wood3.jpg'
-import image4 from '../image/wood4.jpg'
-import '../styles/Body.css'
+import image2 from '../../image/wood2.jpg'
+import image3 from '../../image/wood3.jpg'
+import image4 from '../../image/wood4.jpg'
+import '../../styles/home/Body.css'
 
 
 

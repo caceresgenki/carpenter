@@ -1,10 +1,13 @@
 import NavBar from './components/NavBar'
-import Hero from './components/Hero'
-import Body from './components/Body'
-import Testimonials from './components/Testimonials'
-import Contact from './components/Contact'
+import Home from './components/home/Home'
+import AboutUs from './components/aboutUs/AboutUs'
 import Footer from './components/Footer'
-import './styles/NavBar.css'
+
+
+
+
+
+
 
 function App() {
   
@@ -13,14 +16,9 @@ function App() {
       <header>
         <NavBar/>
       </header>
-      <main>
-        <Hero/>
-        <Body/>
-      </main>
-      <Testimonials/>
-      <main>
-        <Contact/>
-      </main>
+
+      {/* <Home/> */}
+      <AboutUs/>
       <footer>
         <Footer/>
       </footer>

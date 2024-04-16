@@ -1,10 +1,10 @@
-import '../styles/Hero.css';
-import Star from '../icons/Star'
-import User from '../icons/User'
+import '../../styles/home/Hero.css';
+import Star from '../../icons/Star'
+import User from '../../icons/User'
 import ButtonWS from './ButtonWS'
-import imagen from '../image/points.png';
-import wood from '../image/wood.jpg';
-import World from '../icons/World'
+import imagen from '../../image/points.png';
+import wood from '../../image/wood.jpg';
+import World from '../../icons/World'
 
 
 function Hero() {

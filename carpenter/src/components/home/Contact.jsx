@@ -1,8 +1,8 @@
-import Wave1 from '../image/Wave1'
-import Wave2 from '../image/Wave2'
+import Wave1 from '../../image/Wave1'
+import Wave2 from '../../image/Wave2'
 import ButtonWS from './ButtonWS'
-import image from '../image/points.png'
-import '../styles/Contact.css'
+import image from '../../image/points.png'
+import '../../styles/home/Contact.css'
 
 
 
