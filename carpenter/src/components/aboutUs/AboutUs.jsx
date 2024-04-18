@@ -10,7 +10,9 @@ function Home() {
       <main>
        <Hero/>
        <Testimonials/>
+      </main>
        <Body/>
+      <main>
        <Contact/>
       </main>
     </>

@@ -3,7 +3,7 @@
 .heroAbout {
   padding-top: 100px;
   width: 100%;
-  height: 38vw;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,7 +19,7 @@
 }
 
 .descriptionHeroAbout {
-  max-width: 80vw;
+  max-width: 800px;
 }
 
 .decoAbout1, .decoAbout2 {
@@ -39,3 +39,34 @@
   top: -100px;
   right: -540px;
 }
+
+@media (max-width: 768px) {
+  .descriptionHeroAbout {
+    max-width: 70vw;
+  }
+  .decoAbout1 {
+    top: 100px;
+    left: -680px;
+  }
+  .decoAbout2 {
+    top: -130px;
+    right: -590px;
+  }
+}
+
+@media (max-width: 500px) {
+  .descriptionHeroAbout {
+    max-width: 60vw;
+  }
+  .decoAbout1 {
+    top: 130px;
+    left: -720px;
+    display: flex;
+    align-items: center;
+  }
+  .decoAbout2 {
+    top: -50px;
+    right: -690px;
+  }
+}
+
