@@ -2,6 +2,7 @@ import Hero from './Hero'
 import Body from './Body'
 import Testimonials from './Testimonials'
 import Contact from '../home/Contact'
+import Team from './Team'
 
 function Home() {
   
@@ -10,9 +11,10 @@ function Home() {
       <main>
        <Hero/>
        <Testimonials/>
-      </main>
        <Body/>
-      <main>
+       </main>
+       <Team/>
+       <main>
        <Contact/>
       </main>
     </>

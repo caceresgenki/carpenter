@@ -1,0 +1,39 @@
+
+
+.bodyAbout {
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artAbout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.titleAboutBody {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.textAboutBody, .imageAboutBody {
+    flex: 1;
+}
+
+.imageAboutBody img {
+    border-radius: 15px 0 0 15px;
+}
+
+@media (max-width: 500px) {
+    .artAbout {
+        flex-direction: column;
+        text-align: center;
+    }
+    .textAboutBody {
+        width: 80vw;
+    }
+  }
