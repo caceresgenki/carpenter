@@ -3,7 +3,7 @@ import Phone from '../icons/Phone'
 import Mail from '../icons/Mail'
 import Whatsapp from '../icons/Whatsapp'
 
-const textGC = "<GC/>"
+const textGC = '<GC/>'
 
 function Footer() {
   
@@ -49,7 +49,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <p className='create'>Creado por <a href="https://cvgenkicaceres.netlify.app/" target='_blank'>{textGC}</a></p>
+          <p className='create'>Desarrollado por <a href="https://cvgenkicaceres.netlify.app/" target='_blank'>{textGC}</a></p>
         </section>
       </>
     )

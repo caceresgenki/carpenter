@@ -4,7 +4,7 @@ import Testimonials from './Testimonials'
 import Contact from '../home/Contact'
 import Team from './Team'
 
-function Home() {
+function Service() {
   
   return (
     <>
@@ -21,4 +21,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Service
