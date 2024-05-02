@@ -17,6 +17,9 @@
 }
 
 .titleService {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: 48px;
     font-weight: bold;
     max-width: 60vw;
@@ -34,6 +37,11 @@
     margin-bottom: 0;
 }
 
+.detailButton {
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .imageService {
     display: flex;
     align-items: center;
@@ -42,11 +50,26 @@
     width: 80%;
     border: solid 1px #999;
     border-radius: 15px;
-    background-color: #d5d5d5;
+    background-color: #efefef;
 }
 
 .imageService  img {
-    width: 90vw;
+    width: 80vw;
     margin: 24px;
     box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 870px) {
+    .imageService {
+        border: none;
+        border-radius: 0;
+        background-color: transparent;
+    }
+  }
+
+  @media (max-width: 670px) {
+    .buttonService {
+        flex-direction: column;
+    }
+  }
+

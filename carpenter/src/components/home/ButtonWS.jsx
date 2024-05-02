@@ -9,12 +9,12 @@ function ButtonWS() {
   };
 
   return (
-    <h4 >
+    <div>
       <button className='buttonWS'
          onClick={handleButtonClick}>
         Mensaje en WhatsApp
       </button>
-    </h4>
+    </div>
   );
   }
   

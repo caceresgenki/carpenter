@@ -1,4 +1,5 @@
 import Hero from './Hero'
+import Design from './Design'
 import Contact from '../home/Contact'
 
 
@@ -8,7 +9,7 @@ function Service() {
     <>
       <main>
         <Hero/>
-
+        <Design/>
         <Contact/>
       </main>
     </>

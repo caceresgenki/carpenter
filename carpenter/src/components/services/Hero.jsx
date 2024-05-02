@@ -12,7 +12,7 @@ function Hero() {
             <h1 className='titleService'>Diseño y construcción de muebles a medida</h1>
               <div className='buttonService'>
                 <ButtonWS/>
-                <a href="#"><p>Conócenos más ➡</p></a>
+                <a href="#"><p className='detailButton'>Conócenos más ➡</p></a>
               </div>
           </div>
           <div className='imageService'>
