@@ -1,6 +1,6 @@
 import '../../styles/services/hero.css'
 import ButtonWS from '../home/ButtonWS'
-import image1 from '../../image/wood9.jpg'
+import image1 from '../../image/wood9.webp'
 
 
 function Hero() {

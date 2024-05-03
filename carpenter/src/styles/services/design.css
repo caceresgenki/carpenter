@@ -4,14 +4,74 @@
   margin-top: 128px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 
 }
 
 .titleDesign {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
+  max-width: 60vw;
+}
+
+.texttTileDesign {
   font-size: 42px;
-  
+  font-weight: bold;
+
+}
+
+.texttTileDesign span {
+  color: #c07c3c;
+}
+
+.textDesign {
+  margin-top: 48px;
+  font-size: 18px;
+}
+
+.desciptionDesign {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.articleDesign {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 32%;
+  box-sizing: border-box;
+}
+
+.imgDesign {
+  border-radius: 15px;
+
+}
+
+.titleArtDesign {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.textArtDesign {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+
+
+@media (max-width: 687px) {
+  .desciptionDesign {
+      flex-direction: column;
+  }
+}
+
+@media (min-width: 857px) {
+  .imgDesign {
+    height: 250px;
+  }
 }
