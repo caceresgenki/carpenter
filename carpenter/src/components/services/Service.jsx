@@ -1,5 +1,6 @@
 import Hero from './Hero'
 import Design from './Design'
+import Services from './Services'
 import Contact from '../home/Contact'
 
 
@@ -10,6 +11,7 @@ function Service() {
       <main>
         <Hero/>
         <Design/>
+        <Services/>
         <Contact/>
       </main>
     </>
