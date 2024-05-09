@@ -2,10 +2,8 @@
 .navbar {
     display: flex;
     align-items: center;
-    /* background-color: #ddd; */
     backdrop-filter: blur(10px);
     background: linear-gradient(to bottom, rgba(221, 221, 221, 0), rgba(221, 221, 221, 1));
-    justify-content: space-between;
     height: 50px;
     width: 100%;
     position: fixed;
@@ -13,13 +11,7 @@
     padding: 0 20px 0 20px;
     z-index: 2;
   }
-/* 
-  @media (min-width: 1201px) {
-    .navbar {
-      padding-right: 100px;
-    }
-  } */
-  
+
   .logo {
     display: flex;
   }
@@ -38,5 +30,15 @@
   }
   
   .sections a:hover {
-    color: #ff0000;
+    color: #c07c3c;
+  }
+
+  .containerLogo {
+    display: flex;
+    flex: 1;
+  }
+
+  .sections {
+    display: flex;
+    flex: 1;
   }

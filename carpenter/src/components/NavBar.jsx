@@ -1,5 +1,11 @@
 import Logo from '../icons/Logo'
 import '../styles/NavBar.css'
+import { useState } from 'react';
+
+
+
+
+
 
 function NavBar() {
   
@@ -11,9 +17,10 @@ function NavBar() {
                       <Logo/> 
                   </a>
               </div>
-              <div className="sections">
-                  <a href="#">Nosotros</a>
-                  <a href="#">Servicios</a>
+              <div className="sections">  
+                  <a>Inicio</a>
+                  <a>Nosotros</a>
+                  <a>Servicios</a>
               </div>
         </nav>
       </>
