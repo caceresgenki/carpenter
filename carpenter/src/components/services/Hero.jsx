@@ -1,6 +1,7 @@
 import '../../styles/services/hero.css'
 import ButtonWS from '../home/ButtonWS'
 import image1 from '../../image/wood9.webp'
+import NavBar from '../NavBar'
 
 
 function Hero() {
@@ -12,7 +13,7 @@ function Hero() {
             <h1 className='titleService'>Diseño y construcción de muebles a medida</h1>
               <div className='buttonService'>
                 <ButtonWS/>
-                <a href="#"><p className='detailButton'>Conócenos más ➡</p></a>
+                <a href="#"><p className='detailButton' >Conócenos más ➡</p></a>
               </div>
           </div>
           <div className='imageService'>

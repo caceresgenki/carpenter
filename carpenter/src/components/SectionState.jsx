@@ -4,31 +4,30 @@ import AboutUs from './aboutUs/AboutUs'
 import Service from './services/Service'
 import NavBar from './NavBar'
 
-const {Button1, Button2, Button3} = NavBar
 
-function SectionState () {
+// function SectionState () {
   
   
-  const [componentRender, setComponentRender] = useState(<Home/>);
+//   const [componentRender2, setComponentRender] = useState(<Home/>);
   
   
-    const Button1 = () => {
-    setComponentRender(<Home/>);
-  };
+//     const Button1 = () => {
+//     setComponentRender(<Home/>);
+//   };
 
-  const Button2 = () => {
-    setComponentRender(<AboutUs/>);
-  };
+//   const Button2 = () => {
+//     setComponentRender(<AboutUs/>);
+//   };
 
-  const Button3 = () => {
-    setComponentRender(<Service/>);
-  };
+//   const Button3 = () => {
+//     setComponentRender(<Service/>);
+//   };
 
-  return (
-    <div>
-      {componentRender}
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       {componentRender2}
+//     </div>
+//   );
+// };
 
-export default SectionState;
+// export default SectionState;

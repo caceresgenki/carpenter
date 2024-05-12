@@ -1,44 +1,53 @@
 import Logo from '../icons/Logo'
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/NavBar.css'
 import Home from './home/Home'
 import AboutUs from './aboutUs/AboutUs'
 import Service from './services/Service'
-// import SectionState from './SectionState'
+import Hero from './services/Hero'
 
 
 
 function NavBar() {
-
-    const handleClickButton1 = () => {
-      Button1()
-    };
-
+  
+  const [componentRender, setComponentRender] = useState(<Home/>);
+  
+  const handleClickButton1 = () => {
+    setComponentRender(<Home/>)
+  };
+  
     const handleClickButton2 = () => {
-      Button2
+      setComponentRender(<AboutUs/>)
     };
 
     const handleClickButton3 = () => {
-      Button3
+      setComponentRender(<Service/>)
     };
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [componentRender]);
     
 
     return (
       <>
-        <nav className="navbar">
-          <div className='containerLogo'>
-            <a className="logo" onClick={handleClickButton1}>
-              <Logo/>
-            </a>
-          </div>
-
-          <div className="sections">  
-            <a onClick={handleClickButton1}>Inicio</a>
-            <a onClick={handleClickButton2}>Nosotros</a>
-            <a onClick={handleClickButton3}>Servicios</a>
-          </div>
-
-        </nav>
+        <header>
+          <nav className="navbar">
+            <div className='containerLogo'>
+              <a className="logo" onClick={handleClickButton1}>
+                <Logo/>
+              </a>
+            </div>
+            <div className="sections">  
+              <a onClick={handleClickButton1}>Inicio</a>
+              <a onClick={handleClickButton2}>Nosotros</a>
+              <a onClick={handleClickButton3}>Servicios</a>
+            </div>
+          </nav>
+        </header>
+        <main>
+          {componentRender}
+        </main>
       </>
     )
   }

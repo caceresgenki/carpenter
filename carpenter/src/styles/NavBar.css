@@ -16,6 +16,10 @@
     display: flex;
   }
 
+  .logo:hover {
+    cursor: pointer;
+  }
+
   .nameLogo {
     align-self: center;
     padding-left: 8px;
