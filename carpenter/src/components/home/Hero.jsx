@@ -1,5 +1,5 @@
 import '../../styles/home/Hero.css';
-import Star from '../../icons/Star'
+import StarHome from '../../icons/StarHome'
 import User from '../../icons/User'
 import ButtonWS from './ButtonWS'
 import imagen from '../../image/points.png';
@@ -18,8 +18,8 @@ function Hero() {
                 <p className='called' >Calidad y atención personalizada para transformar tus espacios</p>
                 <ButtonWS/>
                 <article>
-                  <div className='icon-star'>
-                    <Star/><Star/><Star/><Star/><Star/><span>| Muebles a pedido</span><span>| Calidad y atención personalizada</span>
+                  <div className='icon-star testimonialsStar'>
+                    <span className='iconStarSpan borderSection'><StarHome/><StarHome/><StarHome/><StarHome/><StarHome/></span><span className='borderSection'>Muebles a pedido</span><span>Calidad y atención personalizada</span>
                   </div>
                   <p className='mesageUser'>“Los muebles que hicieron para mi casa son simplemente increíbles. La calidad y el diseño son inigualables. - Cliente satisfecho”</p>
                   <p className='user'><User /><span className='nameUser'> Michel Zeghen</span></p>

@@ -1,5 +1,8 @@
 import Logo from '../icons/Logo'
 import '../styles/NavBar.css'
+import Home from './home/Home'
+import AboutUs from './aboutUs/AboutUs'
+import Service from './services/Service'
 import { useState } from 'react';
 
 

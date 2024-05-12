@@ -31,6 +31,7 @@
   
   .sections a:hover {
     color: #c07c3c;
+    cursor: pointer;
   }
 
   .containerLogo {

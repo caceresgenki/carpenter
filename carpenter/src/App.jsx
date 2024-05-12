@@ -14,9 +14,9 @@ function App() {
         <NavBar/>
       </header>
 
-        {/* <Home/> */}
+        <Home/>
         {/* <AboutUs/> */}
-        <Service/>
+        {/* <Service/> */}
       <footer>
         <Footer/>
       </footer>
