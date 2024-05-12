@@ -1,10 +1,6 @@
 import NavBar from './components/NavBar'
-import Home from './components/home/Home'
-import AboutUs from './components/aboutUs/AboutUs'
-import Service from './components/services/Service'
 import Footer from './components/Footer'
-
-
+import SectionState from './components/SectionState'
 
 function App() {
   
@@ -13,10 +9,7 @@ function App() {
       <header>
         <NavBar/>
       </header>
-
-        <Home/>
-        {/* <AboutUs/> */}
-        {/* <Service/> */}
+        <SectionState/>
       <footer>
         <Footer/>
       </footer>

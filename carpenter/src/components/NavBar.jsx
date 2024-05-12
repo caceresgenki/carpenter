@@ -1,13 +1,5 @@
 import Logo from '../icons/Logo'
 import '../styles/NavBar.css'
-import Home from './home/Home'
-import AboutUs from './aboutUs/AboutUs'
-import Service from './services/Service'
-import { useState } from 'react';
-
-
-
-
 
 
 function NavBar() {
@@ -15,16 +7,16 @@ function NavBar() {
     return (
       <>
         <nav className="navbar">
-              <div className='containerLogo'>
-                  <a className="logo" >
-                      <Logo/> 
-                  </a>
-              </div>
-              <div className="sections">  
-                  <a>Inicio</a>
-                  <a>Nosotros</a>
-                  <a>Servicios</a>
-              </div>
+          <div className='containerLogo'>
+            <a className="logo" onClick={handleClickButton1}>
+              <Logo/>
+            </a>
+          </div>
+          <div className="sections">  
+            <a onClick={handleClickButton1}>Inicio</a>
+            <a onClick={handleClickButton2}>Nosotros</a>
+            <a onClick={handleClickButton3}>Servicios</a>
+          </div>
         </nav>
       </>
     )
