@@ -4,8 +4,12 @@ import '../styles/NavBar.css'
 import Home from './home/Home'
 import AboutUs from './aboutUs/AboutUs'
 import Service from './services/Service'
-import Hero from './services/Hero'
+// import {Hero} from './services/Hero'
 
+
+// function handleClick(handleClick) {
+//   setComponentRender(<Home/>);
+// }
 
 
 function NavBar() {
@@ -16,18 +20,17 @@ function NavBar() {
     setComponentRender(<Home/>)
   };
   
-    const handleClickButton2 = () => {
-      setComponentRender(<AboutUs/>)
-    };
-
-    const handleClickButton3 = () => {
-      setComponentRender(<Service/>)
-    };
-
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, [componentRender]);
-    
+  const handleClickButton2 = () => {
+    setComponentRender(<AboutUs/>)
+  };
+  
+  const handleClickButton3 = () => {
+    setComponentRender(<Service/>)
+  };
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [componentRender]);
 
     return (
       <>
@@ -39,9 +42,14 @@ function NavBar() {
               </a>
             </div>
             <div className="sections">  
-              <a onClick={handleClickButton1}>Inicio</a>
-              <a onClick={handleClickButton2}>Nosotros</a>
-              <a onClick={handleClickButton3}>Servicios</a>
+              <ul className='listMenu'>
+                <li><a onClick={handleClickButton1}>Inicio</a></li>
+                <li><a onClick={handleClickButton2}>Nosotros</a></li>
+                <li><a onClick={handleClickButton3}>Servicios</a></li>
+              </ul>
+              
+              
+              
             </div>
           </nav>
         </header>

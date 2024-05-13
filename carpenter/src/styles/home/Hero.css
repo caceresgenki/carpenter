@@ -137,3 +137,9 @@ article {
     border-radius: 15px 0 0 15px;
   }
 }
+
+@media (max-width: 400px) {
+  .description {
+    font-size: 58px;
+  }
+}

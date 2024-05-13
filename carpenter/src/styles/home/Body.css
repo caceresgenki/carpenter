@@ -80,3 +80,9 @@
 .descripImage2 {
   font-size: 18px;
 }
+
+@media (max-width: 400px) {
+  .titleSection2 {
+    font-size: 58px;
+  }
+}

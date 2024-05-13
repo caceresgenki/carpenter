@@ -44,3 +44,9 @@
     z-index: -1;
 }
 
+
+@media (max-width: 400px) {
+    .textContact {
+      font-size: 42px;
+    }
+  }

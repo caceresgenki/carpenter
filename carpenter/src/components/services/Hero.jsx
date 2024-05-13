@@ -6,6 +6,10 @@ import NavBar from '../NavBar'
 
 function Hero() {
   
+  // const handleClickA = () => {
+  //   handleClick();
+  // };
+
     return (
       <>
         <section className='heroService'>
@@ -13,7 +17,7 @@ function Hero() {
             <h1 className='titleService'>Diseño y construcción de muebles a medida</h1>
               <div className='buttonService'>
                 <ButtonWS/>
-                <a href="#"><p className='detailButton' >Conócenos más ➡</p></a>
+                {/* <a href='#' className='detailButton'>Conócenos más ➡</a> */}
               </div>
           </div>
           <div className='imageService'>
