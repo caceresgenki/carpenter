@@ -43,13 +43,10 @@ function NavBar() {
             </div>
             <div className="sections">  
               <ul className='listMenu'>
-                <li><a onClick={handleClickButton1}>Inicio</a></li>
-                <li><a onClick={handleClickButton2}>Nosotros</a></li>
-                <li><a onClick={handleClickButton3}>Servicios</a></li>
+                <li className='sectionButton'><a onClick={handleClickButton1}>Inicio</a></li>
+                <li className='sectionButton'><a onClick={handleClickButton2}>Nosotros</a></li>
+                <li className='sectionButton'><a onClick={handleClickButton3}>Servicios</a></li>
               </ul>
-              
-              
-              
             </div>
           </nav>
         </header>

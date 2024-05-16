@@ -27,13 +27,14 @@
     font-size: 18px;
   }
 
-  .sections a {
+  .sectionButton {
     margin-left: 20px;
     color: #333;
     text-decoration: none;
+    transition: color 0.5s ease;
   }
   
-  .sections a:hover {
+  .sectionButton a:hover {
     color: #c07c3c;
     cursor: pointer;
   }
