@@ -47,6 +47,7 @@
   .sections {
     display: flex;
     flex: 1;
+    justify-content: end;
   }
 
   .listMenu {
@@ -58,9 +59,49 @@
     .listMenu {
       display: none;
     }
-    .containerLogo {
+        .containerLogo {
       flex: none;
       justify-content: space-between;
-
     }
+    .sections {
+      justify-content: end;
+    }
+  }
+
+  .ReactModalPortal {
+    display: flex;
+  }
+
+  .iconMenu {
+    border: none;
+  }
+
+  .menuModal {
+    margin: 100px auto ;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 90vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .sectionButtonModal, .closeModal {
+    text-align: center;
+    padding: 4px;
+  }
+
+  .closeModal {
+    padding-top: 16px;
+    color: #b4b4b4;
+  }
+
+  .listModal {
+
   }
