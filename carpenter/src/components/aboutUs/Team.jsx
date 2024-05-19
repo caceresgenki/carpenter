@@ -1,6 +1,6 @@
-import image1 from '../../image/wood6.jpg'
-import image2 from '../../image/wood7.jpg'
-import image3 from '../../image/wood8.jpg'
+import image1 from '../../image/wood6.webp'
+import image2 from '../../image/wood7.webp'
+import image3 from '../../image/wood8.webp'
 import '../../styles/aboutUs/team.css'
 
 

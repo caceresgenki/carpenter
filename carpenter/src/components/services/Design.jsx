@@ -1,6 +1,6 @@
 import '../../styles/services/design.css'
 import Image1 from '../../image/wood10.webp'
-import Image2 from '../../image/wood11.jpg'
+import Image2 from '../../image/wood11.webp'
 import Image3 from '../../image/wood12.webp'
 
 
@@ -10,7 +10,7 @@ function Design() {
       <>
         <section className='desingSection'>
           <div className='titleDesign'>
-            <h2 className='texttTileDesign'>Diseño y construcción de muebles a medidas<span>.</span></h2>
+            <h2 className='texttTileDesign'>Soluciones personalizadas para cada espacio<span>.</span></h2>
             <p className='textDesign'>En Carpintería, nos especializamos en la creación de muebles a medida que se adaptan perfectamente a tus espacios y necesidades. Nuestro equipo de expertos en diseño y carpintería trabajará contigo para crear piezas únicas y personalizadas.</p>
           </div>
           <div className='desciptionDesign'>

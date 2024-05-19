@@ -22,10 +22,6 @@ function Contact() {
             <Wave1 className='waves'/>
             <Wave2 className='waves'/>
           </article>
-            <div className='images'>
-              <img src={image} className='image point'/>
-              <div className='image solid'></div>
-            </div>
         </section>
       </>
     )

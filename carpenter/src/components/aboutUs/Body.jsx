@@ -1,4 +1,4 @@
-import image1 from '../../image/wood5.jpg'
+import image1 from '../../image/wood5.webp'
 import '../../styles/aboutUs/body.css'
 
 function Body() {

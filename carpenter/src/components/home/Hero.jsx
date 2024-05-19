@@ -3,7 +3,7 @@ import StarHome from '../../icons/StarHome'
 import User from '../../icons/User'
 import ButtonWS from './ButtonWS'
 import imagen from '../../image/points.png';
-import wood from '../../image/wood.jpg';
+import wood from '../../image/wood.webp';
 import World from '../../icons/World'
 
 
@@ -14,7 +14,7 @@ function Hero() {
         <section className='hero'>
             <div className='elementsHero'>
               <div className='company'>
-                <h1 className='description' >Carpintería - Muebles únicos y más...</h1>
+                <h1 className='description' >Carpintería: Muebles únicos y más...</h1>
                 <p className='called' >Calidad y atención personalizada para transformar tus espacios</p>
                 <ButtonWS/>
                 <article>
@@ -27,9 +27,9 @@ function Hero() {
                 </article>
               </div>
               <div className='images'>
-                <img src={imagen} className='image point'/>
-                <div className='image solid'></div>
-                <img src={wood} className='image wood'/>
+                <img src={imagen} className='image point' alt='points deco'/>
+                <div className='image solid' alt='solid deco'></div>
+                <img src={wood} className='image wood' alt='wood deco'/>
               </div>
             </div>
         </section>
