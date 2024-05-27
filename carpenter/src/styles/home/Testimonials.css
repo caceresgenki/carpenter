@@ -50,3 +50,12 @@
         font-size: 2.2vw;
     }
   }
+
+  @media (max-width: 500px) {
+    .styleText {
+        font-size: 4.0vw;
+    }
+    .nameUser {
+        font-size: 3.5vw;
+    }
+  }

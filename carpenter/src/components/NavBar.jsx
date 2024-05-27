@@ -8,6 +8,7 @@ import AboutUs from './aboutUs/AboutUs'
 import Service from './services/Service'
 import Menu from '../icons/Menu'
 import Close from '../icons/Close'
+import MetaTag from './MetaTag'
 
 
 function NavBar() {
@@ -98,6 +99,7 @@ function NavBar() {
             <Route path="/nosotros" element={<AboutUs />} />
             <Route path="/servicios" element={<Service />} />
         </Routes>
+        <MetaTag content="carpinteriagc.netlify.app" />
         </main>
       </Router>
     )
